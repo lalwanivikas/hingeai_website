@@ -89,6 +89,10 @@ section {
     margin: 1.5em 0;
 }
 
+ol, ul {
+    list-style: decimal inside;
+}
+
 .hero {
     padding: 3em 0;
 }
@@ -99,16 +103,20 @@ section {
     font-style: italic;
 }
 
-.hero a, section a {
+.hero a {
     color: #1e1e1e;
-    font-size: 1.2em;
+    font-size: inherit;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
-.hero a:hover, section a:hover {
+.hero a:hover {
     text-decoration: underline;
+}
+
+.join-now {
+    font-size: 1.2em;
 }
 
 .features, .faqs, .pricing, .money, .contact {
