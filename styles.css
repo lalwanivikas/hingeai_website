@@ -28,20 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -136,7 +141,7 @@ ol, ul {
     margin: 1.5em 0;
 }
 
-.faqs .faq{
+.faqs .faq {
     border-left: 2px solid #E8E3DC;
     padding: 0 1em;
     margin: 3.5em 0;
@@ -152,24 +157,63 @@ ol, ul {
 }
 
 @media screen and (max-width: 1200px) {
-    body { padding: 0 30px; }
-    h1 { font-size: 3em; }
-    h2 { font-size: 2.55em; }
-    h3 { font-size: 2.17em; }
+    body {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.55em;
+    }
+
+    h3 {
+        font-size: 2.17em;
+    }
 }
 
 @media screen and (max-width: 900px) {
-    body { padding: 0 15px; }
-    .feature-grid { grid-template-columns: 1fr 1fr; }
-    h1 { font-size: 2.55em; }
-    h2 { font-size: 2.17em; }
-    h3 { font-size: 1.57em; }
+    body {
+        padding: 0 15px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 2.55em;
+    }
+
+    h2 {
+        font-size: 2.17em;
+    }
+
+    h3 {
+        font-size: 1.57em;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .feature-grid { grid-template-columns: 1fr; }
-    h1 { font-size: 2.5em; }
-    h2 { font-size: 2em; }
-    h3 { font-size: 1.5em; }
-    .hero p { font-size: 1em; }
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
 }
